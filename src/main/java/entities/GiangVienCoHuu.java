@@ -30,7 +30,7 @@ public class GiangVienCoHuu extends GiangVien {
 
     @Override
     public int tinhLuong() {
-        final int luongNgoaiGio = 200000;
+        final int luongNgoaiGio = 300000;
         int bonus = this.soGioDay > this.soGioDayToiThieu ? (this.soGioDay - this.soGioDayToiThieu) * luongNgoaiGio : 0;
         return this.luong + bonus;
     }
