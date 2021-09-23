@@ -24,7 +24,7 @@ public class GiangVienThinhGiang extends GiangVien{
 
     @Override
     public int tinhLuong() {
-        final int luongMotGio = 300000;
+        final int luongMotGio = 200000;
         return this.soGioDay*luongMotGio;
     }
 }
